@@ -39,8 +39,26 @@ namespace Epe2_Axel_y_Arian
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-            // Redireccionar a Pagina3.aspx
+            // Redireccionar a Pagina4.aspx
             Response.Redirect("Pagina4.aspx");
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            // Redireccionar a Pagina5.aspx
+            Response.Redirect("Pagina5.aspx");
+        }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            // Redireccionar a Pagina6.aspx
+            Response.Redirect("Pagina6.aspx");
+        }
+
+        protected void Boton7_Click(object sender, EventArgs e)
+        {
+            // Redireccionar a Pagina7.aspx
+            Response.Redirect("Pagina7.aspx");
         }
     }
 }

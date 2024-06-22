@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>Pagina 1 - Axel y Arian</h1>
+            <h1>Pagina 4 - Axel y Arian</h1>
             <img src="/imagen/Ipchile.png" width="300" height="200" alt="banner" />
             <h2>Calculadora lista desplegable y case</h2>
             <asp:Label ID="Numero1" runat="server" Text="Numero 1: "></asp:Label>
@@ -28,10 +28,11 @@
                 <asp:ListItem Text="División" Value="division"></asp:ListItem>
             </asp:DropDownList><br />
 
-            <asp:Label ID="lblResultado" runat="server" Text="Resultado: "></asp:Label>
+            
 
             <br />
             <asp:Button ID="btnCalcular1" runat="server" Text="Calcular" CssClass="botonVerde" OnClick="btnCalcular1_Click"/> <br />
+            <asp:Label ID="lblResultado" runat="server" Text="Resultado: "></asp:Label>
             <br />
             <asp:Button ID="btnVolverIndex" runat="server" Text="Volver a Index" CssClass="botonRojo" OnClick="btnVolverIndex_Click" />
             

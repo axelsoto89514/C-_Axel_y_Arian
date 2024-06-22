@@ -46,7 +46,7 @@ namespace Epe2_Axel_y_Arian
 
             // Mostrar el resultado
             lblResultado.Text = "Resultado: " + resultado.ToString();
-        }
+        }   
 
         protected void btnVolverIndex_Click(object sender, EventArgs e)
         {

@@ -68,13 +68,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="calculadora.aspx" />
+    <Content Include="Estilos.css" />
     <Content Include="imagen\Ipchile.png" />
+    <Content Include="imagen\yo.png" />
     <Content Include="Index.aspx" />
     <Content Include="Pagina1.aspx" />
     <Content Include="Pagina2.aspx" />
     <Content Include="Pagina3.aspx" />
     <Content Include="Pagina4.aspx" />
-    <Content Include="styles.css" />
+    <Content Include="Pagina5.aspx" />
+    <Content Include="Pagina6.aspx" />
+    <Content Include="Pagina7.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +123,27 @@
     </Compile>
     <Compile Include="Pagina4.aspx.designer.cs">
       <DependentUpon>Pagina4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina5.aspx.cs">
+      <DependentUpon>Pagina5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina5.aspx.designer.cs">
+      <DependentUpon>Pagina5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina6.aspx.cs">
+      <DependentUpon>Pagina6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina6.aspx.designer.cs">
+      <DependentUpon>Pagina6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina7.aspx.cs">
+      <DependentUpon>Pagina7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina7.aspx.designer.cs">
+      <DependentUpon>Pagina7.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

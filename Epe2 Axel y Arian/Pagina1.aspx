@@ -26,10 +26,11 @@
             <asp:TextBox ID="txtbEpe2" type="number" runat="server"></asp:TextBox> <br />
             <asp:Label ID="lblEpe3" runat="server" Text="EPE3:"></asp:Label> <br />
             <asp:TextBox ID="txtbEpe3" type="number" runat="server"></asp:TextBox> <br />
-            <asp:Label ID="lblResultado" runat="server" Text="Resultado:"></asp:Label> <br />
+            
             <br />
             <asp:Button ID="btnCalcular" runat="server" Text="Calcular" CssClass="botonVerde" OnClick="btnCalcular_Click"/> <br />
-            <br />
+            <asp:Label ID="lblResultado" runat="server" Text="Resultado: "></asp:Label>
+                <br />
             <asp:Button ID="btnVolverIndex" runat="server" Text="Volver a Index" CssClass="botonRojo" OnClick="btnVolverIndex_Click" />
         </div>
     </form>

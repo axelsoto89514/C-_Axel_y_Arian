@@ -20,7 +20,7 @@
             <br />
             <asp:Button ID="Button1" runat="server" CssClass="botonVerde" OnClick="ConcatenateNames_Click" Text="Concatenar" />
             <br />
-            <asp:Label ID="ResultLabel" runat="server" Text=""></asp:Label>
+            <asp:Label ID="ResultLabel" runat="server" Text="Su nombre es: "></asp:Label>
             <br />
             <asp:Button ID="Button2" runat="server" CssClass="botonRojo" OnClick="Button2_Click" Text="Volver a Index" />
         </div>

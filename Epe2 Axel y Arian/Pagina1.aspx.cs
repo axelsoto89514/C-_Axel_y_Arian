@@ -28,7 +28,7 @@ namespace Epe2_Axel_y_Arian
             int epe2 = Convert.ToInt32(txtbEpe2.Text);
             int epe3 = Convert.ToInt32(txtbEpe3.Text);
             double resultado = (((eva1 * 0.07) + (eva2 * 0.07) + (eva3 * 0.14) + (epe1 * 0.07) + (epe2 * 0.14) + (epe3 * 0.21))/0.7);
-            lblResultado.Text = Convert.ToString(resultado);
+            lblResultado.Text = "Resultado: " + " " + Convert.ToString(resultado);
         }
     }
 }

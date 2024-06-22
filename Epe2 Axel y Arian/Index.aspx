@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="Estilos.css" />
     <title></title>
 </head>
 <body>
@@ -28,13 +28,31 @@
         <div>
             <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Formulario de contacto" CssClass="botonRojo" />
         </div>
-        <div>
-           <h4>Ir a Pagina Web 4</h4>
-        </div>
-        <div>
-            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Calculadora lista desplegable y case" CssClass="botonRojo" />
-        </div>
-        
+    <div>
+        <h4>Ir a Pagina Web 4</h4>
+    </div>
+    <div>
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Calculadora lista desplegable y case" CssClass="botonMorado" />
+    </div>
+    <div>
+        <h4>Ir a Pagina Web 5</h4>
+    </div>
+    <div>
+        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Array y Vectores" CssClass="botonAzul" />
+    </div>
+    <div>
+        <h4>Ir a Pagina Web 6</h4>
+    </div>
+    <div>
+        <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Tipos de Variables" CssClass="botonCafe" />
+    </div>
+    <div>
+        <h4>Ir a Pagina Web 7</h4>
+    </div>
+ <div>
+     <asp:Button ID="Boton7" runat="server" OnClick="Boton7_Click" Text="Biografia" CssClass="botonAmarillo" />
+ </div>
+     
     </form>
 </body>
 </html>

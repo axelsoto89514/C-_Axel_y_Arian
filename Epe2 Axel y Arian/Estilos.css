@@ -1,0 +1,113 @@
+﻿body {
+    background-color: lightgray;
+    margin: 15px;
+    font-family: Calibri;
+}
+
+div {
+    background-color: lightgray;
+}
+
+.botonVerde {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botonRojo {
+    background-color: #FF0000;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botonNegro {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botonMorado {
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botonAzul {
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botonCafe {
+    background-color: firebrick;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botonAmarillo {
+    background-color: gold;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+
+
+.txtBox {
+    margin: 15px;
+}
