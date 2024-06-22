@@ -10,7 +10,7 @@
 </head>
 <body>
 <form id="form1" runat="server">
-        <h1>Axel y queti Arian</h1>
+        <h1>Axel y Arian</h1>
          <img  src="/imagen/Ipchile.png" width="300" height="200" alt="banner" />
         <h4>Ir a Pagina Web 1</h4>
         <div>
@@ -27,6 +27,12 @@
         </div>
         <div>
             <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Formulario de contacto" CssClass="botonRojo" />
+        </div>
+        <div>
+           <h4>Ir a Pagina Web 4</h4>
+        </div>
+        <div>
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Calculadora lista desplegable y case" CssClass="botonRojo" />
         </div>
         
     </form>
